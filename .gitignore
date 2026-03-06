@@ -1,0 +1,21 @@
+# Ignore everything by default
+/*
+
+# Keep the gitignore itself
+!.gitignore
+
+# Re-include directories so we can allow their contents
+!*/
+
+# Allow the data and mergeddata folders and their contents
+/data/
+/data/**
+/mergeddata/
+/mergeddata/**
+
+# Allow the main script
+!/mergedata.py
+
+# Ignore JetBrains IDE project files
+/.idea/
+
